@@ -178,3 +178,37 @@ Todos os cenários abaixo foram executados manualmente contra a API local:
 - Não há tratamento de exceções global (middleware) com isso erros inesperados retornariam a stack trace completa em ambiente de desenvolvimento
 - Sem testes automatizados (unitários/integração) os testes descritos acima foram executados manualmente via `curl`
 - Sem paginação real no `GET /pagamentos` (limitado a 200 registros mais recentes)
+
+  ## Evidências
+  <img width="967" height="635" alt="image" src="https://github.com/user-attachments/assets/23257e51-3eaa-4ad8-a177-0c01423962c8" />
+<img width="632" height="204" alt="image" src="https://github.com/user-attachments/assets/c9666324-d283-4a32-948a-3b4c42cb55fc" />
+<img width="602" height="268" alt="image" src="https://github.com/user-attachments/assets/c7f4a512-e9ee-45eb-868d-edf8eaa1a4a5" />
+<img width="1074" height="817" alt="image" src="https://github.com/user-attachments/assets/39fb902a-07bd-4562-a03a-2947203bc820" />
+<img width="1002" height="223" alt="image" src="https://github.com/user-attachments/assets/83f0ec3b-6759-487c-b102-02516832a235" />
+<img width="1601" height="677" alt="image" src="https://github.com/user-attachments/assets/8d1915df-30c7-4538-94f1-fb76e5980532" />
+
+SEM API KEY
+<img width="1107" height="698" alt="image" src="https://github.com/user-attachments/assets/6e3c1352-01f7-493e-9a5a-3662eb017ff6" />
+API KEY INVALIDA
+<img width="1061" height="740" alt="image" src="https://github.com/user-attachments/assets/a26ed245-a179-4300-8113-71eb9eae891c" />
+PAYLOAD VÁLIDO
+<img width="1107" height="768" alt="image" src="https://github.com/user-attachments/assets/31015577-18f0-4394-9a7d-1103b029bdf6" />
+Reenvio do MESMO id_transacao → 200 (idempotência, prova que não duplica)
+<img width="1134" height="715" alt="image" src="https://github.com/user-attachments/assets/250ea209-163a-4b39-93d5-55d7436497ea" />
+JSON MAL FORMADO
+<img width="1175" height="726" alt="image" src="https://github.com/user-attachments/assets/135543c7-55b7-419e-9947-02108e6d390a" />
+PAYLOAD SEM ID_TRANSACAO
+<img width="1097" height="785" alt="image" src="https://github.com/user-attachments/assets/2055389a-264e-40ad-bb22-3f82587350f1" />
+LISTAR TUDO 
+<img width="1159" height="819" alt="image" src="https://github.com/user-attachments/assets/5a8a91fc-545a-43f6-af99-abbc956af67a" />
+FILTRO STATUS
+<img width="1194" height="755" alt="image" src="https://github.com/user-attachments/assets/e1675807-0df0-4061-b5ef-78d842cbd2dd" />
+FILTRO CONTRATO
+<img width="1085" height="785" alt="image" src="https://github.com/user-attachments/assets/281e4ffe-017c-44c5-9344-984eb2bad4ae" />
+FILTRO CONSOLIDADO CONTRATOS
+<img width="1109" height="818" alt="image" src="https://github.com/user-attachments/assets/641ece76-4d1b-45b3-89f4-0ee9fe386f81" />
+
+
+
+
+
