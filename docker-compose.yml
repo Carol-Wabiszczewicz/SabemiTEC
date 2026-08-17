@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: sabemitec-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: sabemitec
+      POSTGRES_USER: sabemitec
+      POSTGRES_PASSWORD: sabemitec_dev_pwd
+    ports:
+      - "5432:5432"
+    volumes:
+      - sabemitec_pgdata:/var/lib/postgresql/data
+
+volumes:
+  sabemitec_pgdata:
